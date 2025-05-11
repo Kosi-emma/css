@@ -19,13 +19,10 @@ body {
 
 .container {
   max-width: 1200px;
-  /* width: 1024px; */
   margin: 0 auto;
   padding: 0;
   background-color: var(--primary-color1);
 }
-/* @media screen and (min-width: 764px) {
-} */
 
 .up-section {
   margin: 0 auto;
@@ -86,12 +83,10 @@ body {
   border-bottom: 8px solid var(--primary-border-color4);
 }
 .down-section-heading-container {
-  /* margin-left: 310px; */
   width: 398px;
   height: 60px;
   margin-top: 6px;
   margin-left: -6px;
-  /* padding-left: 2rem; */
   padding-top: 0.5rem;
   position: absolute;
   background-color: var(--primary-color-sub-heading);
@@ -105,11 +100,6 @@ body {
   height: 440px;
   padding-top: 6rem;
   background-color: var(--primary-color);
-  /* border-bottom: 8px solid var(--primary-border-color4); */
-}
-/* .down-section-article-p1 {
-  position: relative;
-} 
 }
 
 /* Tablet View */
@@ -128,12 +118,7 @@ body {
     padding-left: 1.2rem;
     padding-right: 1rem;
   }
-  /* .up-section-article {
-    margin-top: 32px;
-  }
-  .up-section-article-p2 {
-    margin-top: 16px;
-  } */
+
   .up-section-article-p1-text {
     color: var(--primary-color-special-text);
   }
@@ -156,14 +141,6 @@ body {
   .down-section-heading {
     padding-left: 2rem;
   }
-  /* .up-section-heading {
-    font-family: Lato;
-    font-weight: 800;
-    font-size: 20px;
-    padding-right: 2rem;
-    line-height: 120%;
-    letter-spacing: 0;
-  } */
 
   .down-section-article-p2 {
     margin-top: 16px;
@@ -195,30 +172,13 @@ body {
     padding-left: 1.2rem;
     padding-right: 1rem;
   }
-  /* .up-section-heading {
-    width: 180px;
-    height: 38px;
-    padding-top: 96px;
-    padding-bottom: 48px;
-    margin: 0 16px;
-    font-family: Lato;
-    font-weight: 800;
-    line-height: 120%;
-    size: 32px;
-  } */
-  /* .up-section-article {
-    width: 20rem;
-  } */
 
   .up-section-article-p1,
   .up-section-article-p2 {
     width: 400px;
     font-size: 20px;
   }
-  /* .up-section-article-p2 {
-    padding-top: 16px;
-    margin-bottom: 64px;
-  } */
+
   .up-section-article-p1-text {
     color: var(--primary-color-special-text);
   }
