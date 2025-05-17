@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>SIGNUP</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="content-container">
+        <div class="hero-container">
+          <section class="hero-content">
+            <div class="hero-image-container">
+              <img src="./assets/image/Logo.png" alt="" class="hero-image" />
+            </div>
+            <section class="hero-section">
+              <h2 class="hero-heading">For Individuals</h2>
+              <p class="hero-paragraph">
+                Start benefiting from the wellness experience. For companies
+                looking on increasing productivity, and improving organization
+                wellness.
+              </p>
+              <p class="hidden-text">
+                Inspiring wholesome harmony for the mind, body and spirit, for
+                everyone, everywhere.
+              </p>
+            </section>
+          </section>
+        </div>
+        <section class="form-container">
+          <form action="">
+            <article class="form-up-article">
+              <div>
+                <label for="first-name" class="label">First Name</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="Tolu"
+                />
+              </div>
+              <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" />
+              </div>
+              <div>
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                  <option class="option" value="select here">
+                    Select here
+                  </option>
+                  <option class="option" value="male">Male</option>
+                  <option class="option" value="female">Female</option>
+                </select>
+              </div>
+              <div>
+                <label for="date-of-birth">Date of Birth</label>
+                <input type="date" name="date-of-birth" id="date-of-birth" />
+              </div>
+              <div>
+                <label for="weight">Weight (KG)</label>
+                <input
+                  type="text"
+                  name="weight"
+                  id="weight"
+                  placeholder="Enter Weight here"
+                />
+              </div>
+              <div>
+                <label for="height">Height (CM)</label>
+                <input
+                  type="text"
+                  name="height"
+                  id="height"
+                  placeholder="Enter Height here"
+                />
+              </div>
+            </article>
+            <article class="form-down-article">
+              <div>
+                <label for="activity-level"> Activity Level</label>
+                <select name="activity-level" id="activity-level">
+                  <option class="option" value="select-here">
+                    Select Here
+                  </option>
+                </select>
+              </div>
+              <div>
+                <label for="password">Password</label>
+                <div class="form-password">
+                  <input type="password" id="password" />
+                  <span><i id="eye" class="far fa-eye"></i></span>
+                </div>
+              </div>
+              <div>
+                <button type="submit">Register</button>
+              </div>
+            </article>
+          </form>
+
+          <footer class="form-footer">
+            <p>
+              By clicking Register, you agree to our
+              <span>Terms of Use</span> and our <span>Privacy Policy</span>
+            </p>
+          </footer>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
